@@ -19,7 +19,7 @@ Network Traffic
 → Elasticsearch (Indexing & Search)  
 → Kibana (Analysis & Visualization)
 
-A detailed architecture diagram is provided in the `architecture/` directory.
+A detailed architecture diagram is provided in the [Architecture](./Architecture/architecture.md) directory.
 
 ## What This Project Demonstrates
 - Deployment of a network traffic inspection engine
