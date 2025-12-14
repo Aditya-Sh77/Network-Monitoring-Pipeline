@@ -154,6 +154,14 @@ Kibana **does not collect or store data**. It only queries Elasticsearch.
 
 ## Summary
 
+
+## Data Flow Description
+- Suricata decodes live traffic and emits structured protocol events
+- Filebeat continuously reads Suricata event logs
+- Elasticsearch indexes events for fast querying
+- Kibana provides an interface for analysis and visualization
+
+
 This pipeline demonstrates how raw network traffic is transformed into structured, searchable, and analyzable security telemetry using a modular, industry-relevant architecture.
 
 Each component has a single responsibility, and together they form a complete network security monitoring system.
