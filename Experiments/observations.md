@@ -13,7 +13,7 @@ Validate that network traffic is captured, decoded, and centrally analyzed by th
 - DNS query and response events were recorded
   <img width="2271" height="1130" alt="image" src="https://github.com/user-attachments/assets/0915927f-51ae-44fd-9dca-ce91daedbfdc" />
   [DNS EVENT](./event/dns.json)
-- Network flow records were generated
+- Network connection records were generated
   <img width="2275" height="1129" alt="image" src="https://github.com/user-attachments/assets/58416c23-ba12-4995-b73c-1e4f965dd73d" />
 - TLS handshake metadata was visible
   <img width="2279" height="1060" alt="image" src="https://github.com/user-attachments/assets/3c2655b9-71a7-4b5f-b665-3f969840617e" />
