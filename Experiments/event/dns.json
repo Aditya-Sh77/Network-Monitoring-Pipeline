@@ -1,0 +1,205 @@
+{
+  "@timestamp": [
+    "2025-12-14T20:31:12.936Z"
+  ],
+  "agent.ephemeral_id": [
+    "b9653595-bb7e-46ec-9bd9-18f2c572eef2"
+  ],
+  "agent.hostname": [
+    "adi-VirtualBox"
+  ],
+  "agent.id": [
+    "af825829-602c-4815-b453-f7d6eef9483e"
+  ],
+  "agent.name": [
+    "adi-VirtualBox"
+  ],
+  "agent.type": [
+    "filebeat"
+  ],
+  "agent.version": [
+    "8.19.8"
+  ],
+  "destination.address": [
+    "1.1.1.2"
+  ],
+  "destination.as.number": [
+    13335
+  ],
+  "destination.as.organization.name": [
+    "CLOUDFLARENET"
+  ],
+  "destination.as.organization.name.text": [
+    "CLOUDFLARENET"
+  ],
+  "destination.ip": [
+    "1.1.1.2"
+  ],
+  "destination.port": [
+    53
+  ],
+  "dns.header_flags": [
+    "RD",
+    "RA"
+  ],
+  "dns.id": [
+    "19510"
+  ],
+  "dns.question.name": [
+    "store.google.com"
+  ],
+  "dns.question.registered_domain": [
+    "google.com"
+  ],
+  "dns.question.subdomain": [
+    "store"
+  ],
+  "dns.question.top_level_domain": [
+    "com"
+  ],
+  "dns.question.type": [
+    "HTTPS"
+  ],
+  "dns.response_code": [
+    "NOERROR"
+  ],
+  "dns.type": [
+    "answer"
+  ],
+  "ecs.version": [
+    "1.12.0"
+  ],
+  "event.category": [
+    "network"
+  ],
+  "event.created": [
+    "2025-12-14T20:31:14.822Z"
+  ],
+  "event.dataset": [
+    "suricata.eve"
+  ],
+  "event.ingested": [
+    "2025-12-14T20:31:17.354Z"
+  ],
+  "event.kind": [
+    "event"
+  ],
+  "event.module": [
+    "suricata"
+  ],
+  "event.original": [
+    "{\"timestamp\":\"2025-12-15T02:01:12.936059+0530\",\"flow_id\":115457623917856,\"in_iface\":\"enp0s3\",\"event_type\":\"dns\",\"src_ip\":\"10.0.2.15\",\"src_port\":36892,\"dest_ip\":\"1.1.1.2\",\"dest_port\":53,\"proto\":\"UDP\",\"pkt_src\":\"wire/pcap\",\"dns\":{\"version\":2,\"type\":\"answer\",\"id\":19510,\"flags\":\"8180\",\"qr\":true,\"rd\":true,\"ra\":true,\"opcode\":0,\"rrname\":\"store.google.com\",\"rrtype\":\"HTTPS\",\"rcode\":\"NOERROR\",\"authorities\":[{\"rrname\":\"google.com\",\"rrtype\":\"SOA\",\"ttl\":60,\"soa\":{\"mname\":\"ns1.google.com\",\"rname\":\"dns-admin.google.com\",\"serial\":844032026,\"refresh\":900,\"retry\":900,\"expire\":1800,\"minimum\":60}}]}}"
+  ],
+  "event.type": [
+    "protocol"
+  ],
+  "fileset.name": [
+    "eve"
+  ],
+  "host.name": [
+    "adi-VirtualBox"
+  ],
+  "input.type": [
+    "log"
+  ],
+  "log.file.path": [
+    "/var/log/suricata/eve.json"
+  ],
+  "log.offset": [
+    34176002
+  ],
+  "network.community_id": [
+    "1:Bz5YW8BdlvPrb/TfahvOY4oRH+I="
+  ],
+  "network.direction": [
+    "outbound"
+  ],
+  "network.protocol": [
+    "dns"
+  ],
+  "network.transport": [
+    "udp"
+  ],
+  "related.ip": [
+    "10.0.2.15",
+    "1.1.1.2"
+  ],
+  "service.type": [
+    "suricata"
+  ],
+  "source.address": [
+    "10.0.2.15"
+  ],
+  "source.ip": [
+    "10.0.2.15"
+  ],
+  "source.port": [
+    36892
+  ],
+  "suricata.eve.dns.authorities.rrname": [
+    "google.com"
+  ],
+  "suricata.eve.dns.authorities.rrtype": [
+    "SOA"
+  ],
+  "suricata.eve.dns.authorities.soa.expire": [
+    1800
+  ],
+  "suricata.eve.dns.authorities.soa.minimum": [
+    60
+  ],
+  "suricata.eve.dns.authorities.soa.mname": [
+    "ns1.google.com"
+  ],
+  "suricata.eve.dns.authorities.soa.refresh": [
+    900
+  ],
+  "suricata.eve.dns.authorities.soa.retry": [
+    900
+  ],
+  "suricata.eve.dns.authorities.soa.rname": [
+    "dns-admin.google.com"
+  ],
+  "suricata.eve.dns.authorities.soa.serial": [
+    844032026
+  ],
+  "suricata.eve.dns.authorities.ttl": [
+    60
+  ],
+  "suricata.eve.dns.id": [
+    19510
+  ],
+  "suricata.eve.dns.opcode": [
+    0
+  ],
+  "suricata.eve.dns.rcode": [
+    "NOERROR"
+  ],
+  "suricata.eve.dns.rrname": [
+    "store.google.com"
+  ],
+  "suricata.eve.dns.rrtype": [
+    "HTTPS"
+  ],
+  "suricata.eve.dns.type": [
+    "answer"
+  ],
+  "suricata.eve.event_type": [
+    "dns"
+  ],
+  "suricata.eve.flow_id": [
+    "115457623917856"
+  ],
+  "suricata.eve.in_iface": [
+    "enp0s3"
+  ],
+  "suricata.eve.pkt_src": [
+    "wire/pcap"
+  ],
+  "tags": [
+    "suricata"
+  ],
+  "_id": "TPSPHpsBApoQfkW3d8ds",
+  "_index": ".ds-filebeat-8.19.8-2025.12.14-000001",
+  "_score": null
+}
