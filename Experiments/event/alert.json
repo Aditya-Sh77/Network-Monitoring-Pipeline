@@ -1,0 +1,311 @@
+{
+  "@timestamp": [
+    "2025-12-14T16:39:10.402Z"
+  ],
+  "agent.ephemeral_id": [
+    "b9653595-bb7e-46ec-9bd9-18f2c572eef2"
+  ],
+  "agent.hostname": [
+    "adi-VirtualBox"
+  ],
+  "agent.id": [
+    "af825829-602c-4815-b453-f7d6eef9483e"
+  ],
+  "agent.name": [
+    "adi-VirtualBox"
+  ],
+  "agent.type": [
+    "filebeat"
+  ],
+  "agent.version": [
+    "8.19.8"
+  ],
+  "destination.address": [
+    "91.189.91.83"
+  ],
+  "destination.as.number": [
+    41231
+  ],
+  "destination.as.organization.name": [
+    "Canonical Group Limited"
+  ],
+  "destination.as.organization.name.text": [
+    "Canonical Group Limited"
+  ],
+  "destination.bytes": [
+    48134
+  ],
+  "destination.domain": [
+    "in.archive.ubuntu.com"
+  ],
+  "destination.geo.city_name": [
+    "Boston"
+  ],
+  "destination.geo.continent_name": [
+    "North America"
+  ],
+  "destination.geo.country_iso_code": [
+    "US"
+  ],
+  "destination.geo.country_name": [
+    "United States"
+  ],
+  "destination.geo.location": [
+    {
+      "coordinates": [
+        -71.0618,
+        42.3574
+      ],
+      "type": "Point"
+    }
+  ],
+  "destination.geo.region_iso_code": [
+    "US-MA"
+  ],
+  "destination.geo.region_name": [
+    "Massachusetts"
+  ],
+  "destination.ip": [
+    "91.189.91.83"
+  ],
+  "destination.packets": [
+    48
+  ],
+  "destination.port": [
+    80
+  ],
+  "ecs.version": [
+    "1.12.0"
+  ],
+  "event.category": [
+    "network",
+    "intrusion_detection"
+  ],
+  "event.created": [
+    "2025-12-14T16:39:11.389Z"
+  ],
+  "event.dataset": [
+    "suricata.eve"
+  ],
+  "event.ingested": [
+    "2025-12-14T16:39:20.553Z"
+  ],
+  "event.kind": [
+    "alert"
+  ],
+  "event.module": [
+    "suricata"
+  ],
+  "event.original": [
+    "{\"timestamp\":\"2025-12-14T22:09:10.402506+0530\",\"flow_id\":1634641131818598,\"in_iface\":\"enp0s3\",\"event_type\":\"alert\",\"src_ip\":\"10.0.2.15\",\"src_port\":54602,\"dest_ip\":\"91.189.91.83\",\"dest_port\":80,\"proto\":\"TCP\",\"pkt_src\":\"wire/pcap\",\"tx_id\":1,\"alert\":{\"action\":\"allowed\",\"gid\":1,\"signature_id\":2013504,\"rev\":6,\"signature\":\"ET INFO GNU/Linux APT User-Agent Outbound likely related to package management\",\"category\":\"Not Suspicious Traffic\",\"severity\":3,\"metadata\":{\"confidence\":[\"High\"],\"created_at\":[\"2011_08_31\"],\"signature_severity\":[\"Informational\"],\"tag\":[\"Description_Generated_By_Proofpoint_Nexus\"],\"updated_at\":[\"2020_04_22\"]}},\"http\":{\"hostname\":\"in.archive.ubuntu.com\",\"url\":\"/ubuntu/pool/main/libs/libssh2/libssh2-1t64_1.11.0-4.1build2_amd64.deb\",\"http_user_agent\":\"Debian APT-HTTP/1.3 (2.8.3)\",\"http_content_type\":\"application/vnd.debian.binary-package\",\"http_method\":\"GET\",\"protocol\":\"HTTP/1.1\",\"status\":200,\"length\":2628},\"app_proto\":\"http\",\"direction\":\"to_server\",\"flow\":{\"pkts_toserver\":34,\"pkts_toclient\":48,\"bytes_toserver\":2531,\"bytes_toclient\":48134,\"start\":\"2025-12-14T22:09:09.118450+0530\",\"src_ip\":\"10.0.2.15\",\"dest_ip\":\"91.189.91.83\",\"src_port\":54602,\"dest_port\":80}}"
+  ],
+  "event.severity": [
+    3
+  ],
+  "event.start": [
+    "2025-12-14T16:39:09.118Z"
+  ],
+  "event.type": [
+    "allowed"
+  ],
+  "fileset.name": [
+    "eve"
+  ],
+  "host.name": [
+    "adi-VirtualBox"
+  ],
+  "http.request.method": [
+    "GET"
+  ],
+  "http.response.body.bytes": [
+    2628
+  ],
+  "http.response.status_code": [
+    200
+  ],
+  "input.type": [
+    "log"
+  ],
+  "log.file.path": [
+    "/var/log/suricata/eve.json"
+  ],
+  "log.offset": [
+    19542455
+  ],
+  "message": [
+    "Not Suspicious Traffic"
+  ],
+  "network.bytes": [
+    50665
+  ],
+  "network.community_id": [
+    "1:VH1B7JXbcn22spXA8ZScTADL/sg="
+  ],
+  "network.direction": [
+    "outbound"
+  ],
+  "network.packets": [
+    82
+  ],
+  "network.protocol": [
+    "http"
+  ],
+  "network.transport": [
+    "tcp"
+  ],
+  "related.hosts": [
+    "in.archive.ubuntu.com"
+  ],
+  "related.ip": [
+    "10.0.2.15",
+    "91.189.91.83"
+  ],
+  "rule.category": [
+    "Not Suspicious Traffic"
+  ],
+  "rule.id": [
+    "2013504"
+  ],
+  "rule.name": [
+    "ET INFO GNU/Linux APT User-Agent Outbound likely related to package management"
+  ],
+  "service.type": [
+    "suricata"
+  ],
+  "source.address": [
+    "10.0.2.15"
+  ],
+  "source.bytes": [
+    2531
+  ],
+  "source.ip": [
+    "10.0.2.15"
+  ],
+  "source.packets": [
+    34
+  ],
+  "source.port": [
+    54602
+  ],
+  "suricata.eve.alert.category": [
+    "Not Suspicious Traffic"
+  ],
+  "suricata.eve.alert.created_at": [
+    "2011-08-31T00:00:00.000Z"
+  ],
+  "suricata.eve.alert.gid": [
+    1
+  ],
+  "suricata.eve.alert.metadata": [
+    {
+      "confidence": [
+        "High"
+      ],
+      "tag": [
+        "Description_Generated_By_Proofpoint_Nexus"
+      ],
+      "signature_severity": [
+        "Informational"
+      ]
+    }
+  ],
+  "suricata.eve.alert.rev": [
+    6
+  ],
+  "suricata.eve.alert.signature": [
+    "ET INFO GNU/Linux APT User-Agent Outbound likely related to package management"
+  ],
+  "suricata.eve.alert.signature_id": [
+    2013504
+  ],
+  "suricata.eve.alert.updated_at": [
+    "2020-04-22T00:00:00.000Z"
+  ],
+  "suricata.eve.direction": [
+    "to_server"
+  ],
+  "suricata.eve.event_type": [
+    "alert"
+  ],
+  "suricata.eve.flow_id": [
+    "1634641131818598"
+  ],
+  "suricata.eve.flow.dest_ip": [
+    "91.189.91.83"
+  ],
+  "suricata.eve.flow.dest_port": [
+    80
+  ],
+  "suricata.eve.flow.src_ip": [
+    "10.0.2.15"
+  ],
+  "suricata.eve.flow.src_port": [
+    54602
+  ],
+  "suricata.eve.http.http_content_type": [
+    "application/vnd.debian.binary-package"
+  ],
+  "suricata.eve.http.protocol": [
+    "HTTP/1.1"
+  ],
+  "suricata.eve.in_iface": [
+    "enp0s3"
+  ],
+  "suricata.eve.pkt_src": [
+    "wire/pcap"
+  ],
+  "suricata.eve.tx_id": [
+    1
+  ],
+  "tags": [
+    "suricata"
+  ],
+  "traefik.access.user_agent.name": [
+    "Debian APT-HTTP"
+  ],
+  "traefik.access.user_agent.original": [
+    "Debian APT-HTTP/1.3 (2.8.3)"
+  ],
+  "traefik.access.user_agent.os_name": [
+    "Debian"
+  ],
+  "url.domain": [
+    "in.archive.ubuntu.com"
+  ],
+  "url.extension": [
+    "deb"
+  ],
+  "url.original": [
+    "/ubuntu/pool/main/libs/libssh2/libssh2-1t64_1.11.0-4.1build2_amd64.deb"
+  ],
+  "url.original.text": [
+    "/ubuntu/pool/main/libs/libssh2/libssh2-1t64_1.11.0-4.1build2_amd64.deb"
+  ],
+  "url.path": [
+    "/ubuntu/pool/main/libs/libssh2/libssh2-1t64_1.11.0-4.1build2_amd64.deb"
+  ],
+  "user_agent.device.name": [
+    "Other"
+  ],
+  "user_agent.name": [
+    "Debian APT-HTTP"
+  ],
+  "user_agent.original": [
+    "Debian APT-HTTP/1.3 (2.8.3)"
+  ],
+  "user_agent.original.text": [
+    "Debian APT-HTTP/1.3 (2.8.3)"
+  ],
+  "user_agent.os.name": [
+    "Debian"
+  ],
+  "user_agent.os.name.text": [
+    "Debian"
+  ],
+  "user_agent.version": [
+    "1.3"
+  ],
+  "_id": "7PS7HZsBApoQfkW3HbQU",
+  "_index": ".ds-filebeat-8.19.8-2025.12.14-000001",
+  "_score": null
+}

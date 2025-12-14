@@ -1,0 +1,223 @@
+{
+  "@timestamp": [
+    "2025-12-14T19:17:56.003Z"
+  ],
+  "agent.ephemeral_id": [
+    "b9653595-bb7e-46ec-9bd9-18f2c572eef2"
+  ],
+  "agent.hostname": [
+    "adi-VirtualBox"
+  ],
+  "agent.id": [
+    "af825829-602c-4815-b453-f7d6eef9483e"
+  ],
+  "agent.name": [
+    "adi-VirtualBox"
+  ],
+  "agent.type": [
+    "filebeat"
+  ],
+  "agent.version": [
+    "8.19.8"
+  ],
+  "destination.address": [
+    "34.120.127.130"
+  ],
+  "destination.as.number": [
+    396982
+  ],
+  "destination.as.organization.name": [
+    "GOOGLE-CLOUD-PLATFORM"
+  ],
+  "destination.as.organization.name.text": [
+    "GOOGLE-CLOUD-PLATFORM"
+  ],
+  "destination.bytes": [
+    57471
+  ],
+  "destination.geo.city_name": [
+    "Kansas City"
+  ],
+  "destination.geo.continent_name": [
+    "North America"
+  ],
+  "destination.geo.country_iso_code": [
+    "US"
+  ],
+  "destination.geo.country_name": [
+    "United States"
+  ],
+  "destination.geo.location": [
+    {
+      "coordinates": [
+        -94.5778,
+        39.1027
+      ],
+      "type": "Point"
+    }
+  ],
+  "destination.geo.region_iso_code": [
+    "US-MO"
+  ],
+  "destination.geo.region_name": [
+    "Missouri"
+  ],
+  "destination.ip": [
+    "34.120.127.130"
+  ],
+  "destination.packets": [
+    47
+  ],
+  "destination.port": [
+    443
+  ],
+  "ecs.version": [
+    "1.12.0"
+  ],
+  "event.category": [
+    "network"
+  ],
+  "event.created": [
+    "2025-12-14T19:17:56.305Z"
+  ],
+  "event.dataset": [
+    "suricata.eve"
+  ],
+  "event.duration": [
+    148000000
+  ],
+  "event.end": [
+    "2025-12-14T19:16:47.833Z"
+  ],
+  "event.ingested": [
+    "2025-12-14T19:18:06.312Z"
+  ],
+  "event.kind": [
+    "event"
+  ],
+  "event.module": [
+    "suricata"
+  ],
+  "event.original": [
+    "{\"timestamp\":\"2025-12-15T00:47:56.003814+0530\",\"flow_id\":2099065168492170,\"in_iface\":\"enp0s3\",\"event_type\":\"flow\",\"src_ip\":\"10.0.2.15\",\"src_port\":57416,\"dest_ip\":\"34.120.127.130\",\"dest_port\":443,\"proto\":\"TCP\",\"app_proto\":\"tls\",\"flow\":{\"pkts_toserver\":25,\"pkts_toclient\":47,\"bytes_toserver\":2599,\"bytes_toclient\":57471,\"start\":\"2025-12-15T00:46:47.685334+0530\",\"end\":\"2025-12-15T00:46:47.833793+0530\",\"age\":0,\"state\":\"closed\",\"reason\":\"timeout\",\"alerted\":false},\"tcp\":{\"tcp_flags\":\"1b\",\"tcp_flags_ts\":\"1b\",\"tcp_flags_tc\":\"1b\",\"syn\":true,\"fin\":true,\"psh\":true,\"ack\":true,\"state\":\"closed\",\"ts_max_regions\":1,\"tc_max_regions\":1}}"
+  ],
+  "event.start": [
+    "2025-12-14T19:16:47.685Z"
+  ],
+  "event.type": [
+    "connection",
+    "end"
+  ],
+  "fileset.name": [
+    "eve"
+  ],
+  "host.name": [
+    "adi-VirtualBox"
+  ],
+  "input.type": [
+    "log"
+  ],
+  "log.file.path": [
+    "/var/log/suricata/eve.json"
+  ],
+  "log.offset": [
+    29245257
+  ],
+  "network.bytes": [
+    60070
+  ],
+  "network.community_id": [
+    "1:ob7K4BDt1TwAL9/9uKeKP2UQ3lQ="
+  ],
+  "network.direction": [
+    "outbound"
+  ],
+  "network.packets": [
+    72
+  ],
+  "network.protocol": [
+    "tls"
+  ],
+  "network.transport": [
+    "tcp"
+  ],
+  "related.ip": [
+    "10.0.2.15",
+    "34.120.127.130"
+  ],
+  "service.type": [
+    "suricata"
+  ],
+  "source.address": [
+    "10.0.2.15"
+  ],
+  "source.bytes": [
+    2599
+  ],
+  "source.ip": [
+    "10.0.2.15"
+  ],
+  "source.packets": [
+    25
+  ],
+  "source.port": [
+    57416
+  ],
+  "suricata.eve.event_type": [
+    "flow"
+  ],
+  "suricata.eve.flow_id": [
+    "2099065168492170"
+  ],
+  "suricata.eve.flow.age": [
+    0
+  ],
+  "suricata.eve.flow.alerted": [
+    false
+  ],
+  "suricata.eve.flow.reason": [
+    "timeout"
+  ],
+  "suricata.eve.flow.state": [
+    "closed"
+  ],
+  "suricata.eve.in_iface": [
+    "enp0s3"
+  ],
+  "suricata.eve.tcp.ack": [
+    true
+  ],
+  "suricata.eve.tcp.fin": [
+    true
+  ],
+  "suricata.eve.tcp.psh": [
+    true
+  ],
+  "suricata.eve.tcp.state": [
+    "closed"
+  ],
+  "suricata.eve.tcp.syn": [
+    true
+  ],
+  "suricata.eve.tcp.tc_max_regions": [
+    1
+  ],
+  "suricata.eve.tcp.tcp_flags": [
+    "1b"
+  ],
+  "suricata.eve.tcp.tcp_flags_tc": [
+    "1b"
+  ],
+  "suricata.eve.tcp.tcp_flags_ts": [
+    "1b"
+  ],
+  "suricata.eve.tcp.ts_max_regions": [
+    1
+  ],
+  "tags": [
+    "suricata"
+  ],
+  "_id": "q_RMHpsBApoQfkW3dr_p",
+  "_index": ".ds-filebeat-8.19.8-2025.12.14-000001",
+  "_score": null
+}
