@@ -23,7 +23,7 @@ Validate that network traffic is captured, decoded, and centrally analyzed by th
 ## Note
  - Long term filtering alerts.
    <img width="2266" height="1126" alt="image" src="https://github.com/user-attachments/assets/c04a2570-119b-447b-b3e0-b64939773326" />
-   [ALERT EVENT](./alert.json)
+   [ALERT EVENT](./event/alert.json)
 
    
 ## Conclusion
